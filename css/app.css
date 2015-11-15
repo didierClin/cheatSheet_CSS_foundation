@@ -1,8 +1,4 @@
 /* CS CCS3 */
-body{
-  font-size: 1em;
-  line-height: 1.5em;
-}
 img{
   width: 90%;
   margin: auto;
@@ -18,10 +14,14 @@ th{
   /*couleur de l'entete*/
   background-color: #248B14;
 }
+h1{
+  color: white;
+}
 .panel{
   text-align: center;
   color: rgb(31,83, 12);
   font-weight: bolder;
   background-color: orange;
   border-radius: 3em;
+  box-shadow: .3em .3em darkgray;
 }
