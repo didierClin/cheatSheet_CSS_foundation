@@ -61,7 +61,9 @@
 
 
   <section class="row">
+<!--    Formattage de la page suivant le device -->
     <ul class="large-block-grid-2 medium-block-grid-1 small-block-grid-1">
+<!--    /Propriétés Texte -->
         <li id="Tex">
           <h4 class="panel">Propriétés de texte</h4>
           <table>
@@ -167,6 +169,8 @@
             </tbody>
           </table>
         </li>
+<!--    /Propriétés Texte -->
+<!--    Propriétés boites -->
         <li id="Boi">
           <h4 class="panel">Propriétés des boîtes</h4>
           <table>
@@ -250,7 +254,10 @@
             </tbody>
           </table>
         </li>
+<!--    /Propriétés boites -->
+<!--    Propriétés de couleur et de fond -->
         <li id="Cou">
+          <h4 class="panel">Propriétés de couleur et de fond</h4>
           <table>
             <thead>
               <tr>
@@ -310,7 +317,10 @@
           </table>
 
         </li>
+<!--    /Propriétés de couleur et de fond -->
+<!--    Propriétés d'affichage' -->
         <li id="Aff">
+          <h4 class="panel">Propriétés d'affichage</h4>
           <table>
             <thead>
               <tr>
@@ -367,10 +377,12 @@
              </tr>
             </tbody>
           </table>
-          </table>
 
         </li>
+<!--    /Propriétés d'affichage -->
+<!--    Propriétés de listes -->
         <li id="Lis">
+          <h4 class="panel">Propriétés des listes</h4>
           <table>
             <thead>
               <tr>
@@ -411,7 +423,10 @@
           </table>
 
         </li>
+<!--    /Propriétés d'affichage -->
+<!--    Propriétés de listes -->
         <li id="Tab">
+          <h4 class="panel">Propriétés des tableaux</h4>
           <table>
             <thead>
               <tr>
@@ -420,11 +435,28 @@
                 <th> <p>Description</p> </th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                  <td></td>
+            <tbody >
+              <tr >
+                 <td > <p > <code>border-collapse</code> </p>
+                </td>
+                <td>
+                  <p >collapse, separate</p>
+                </td>
+                <td >
+                  <p>Fusion des bordures</p>
+                </td>
               </tr>
-            <tbody>
+              <tr >
+                <td > <p> <code >empty-cells</code> </p> </td>
+                <td > <p >hide, show</p> </td>
+                <td > <p >Affichage des cellules vides</p> </td>
+              </tr>
+              <tr >
+                 <td > <p > <code >caption-side</code> </p> </td>
+                 <td > <p >bottom, top</p> </td>
+                 <td > <p >Position du titre du tableau</p> </td>
+              </tr>
+            </tbody>
           </table>
 
         </li>
@@ -439,7 +471,7 @@
       <hr>
       <div class="row">
         <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
+          <p>© Réalisation Didier_Rbx.</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
@@ -455,9 +487,7 @@
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
+  <script> $(document).foundation(); </script>
 </body>
 
 </html>
