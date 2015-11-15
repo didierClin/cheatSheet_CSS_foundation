@@ -14,6 +14,13 @@ th{
   /*couleur de l'entete*/
   background-color: #248B14;
 }
+.name p{
+  color: white;
+}
+#myTouch{
+  font-size:.4em;
+  font-style: italic;
+}
 .panel{
   text-align: center;
   color: rgb(31,83, 12);
