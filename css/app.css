@@ -15,6 +15,10 @@ td {
 /*table{
   margin: 1em;
 }*/
+.myTab{
+  width: 100%;
+  margin: 1% auto;
+}
 th {
    font-weight: bold;
    /*couleur de l'entete*/
@@ -44,6 +48,6 @@ p {
    border-radius: 3em;
    box-shadow: .3em .3em darkgray;
 }
-@media only screen and (max-width: 40.0625em){
-  p { color: blue; font-weight: normal;}
+@media only screen and (max-width: 35em){
+   tr p { font-size: 1em;}
 }
