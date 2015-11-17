@@ -1,32 +1,34 @@
 /* CS CCS3 */
-img{
-  width: 90%;
-  margin: auto;
+
+img {
+   height: auto;
+   width: 70%;
+   padding-top: 1em;
 }
-td{
-  color: rgb(29, 99, 66);
-  /*couleur cellules*/
-  background-color: rgb(185, 196, 28);
-  width: 33%;
+td {
+   color: rgb(29, 99, 66);
+   /*couleur cellules*/
+   background-color: rgb(185, 196, 28);
+   width: 33%;
 }
-th{
-  font-weight: bold;
-  /*couleur de l'entete*/
-  background-color: #248B14;
+th {
+   font-weight: bold;
+   /*couleur de l'entete*/
+   background-color: #248B14;
 }
-.name p{
-  color: white;
+.name p {
+   color: white;
 }
-#myTouch{
-  font-size:.4em;
-  font-style: italic;
+#myTouch {
+   font-size: .4em;
+   font-style: italic;
 }
-.panel{
-  margin: 1em 1em;
-  text-align: center;
-  color: rgb(31,83, 12);
-  font-weight: bolder;
-  background-color: orange;
-  border-radius: 3em;
-  box-shadow: .3em .3em darkgray;
+.panel {
+   margin: 1em 1em;
+   text-align: center;
+   color: rgb(31, 83, 12);
+   font-weight: bolder;
+   background-color: orange;
+   border-radius: 3em;
+   box-shadow: .3em .3em darkgray;
 }
