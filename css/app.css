@@ -1,10 +1,11 @@
 /* CS CCS3 */
-
+/*Image entete*/
 img {
    height: auto;
    width: 70%;
    padding-top: 1em;
 }
+/* Personalisation cellules de tableau*/
 td {
    color: rgb(29, 99, 66);
    /*couleur cellules*/
@@ -16,13 +17,21 @@ th {
    /*couleur de l'entete*/
    background-color: #248B14;
 }
+/* Accentuation texte ds le tableau*/
+p {
+  font-weight: bolder;
+}
+/* Visibilité titre ds barNav */
 .name p {
    color: white;
 }
+/*Personalisation entete*/
 #myTouch {
    font-size: .4em;
    font-style: italic;
+   color: red;
 }
+/*Personalisation entete des tableaux*/
 .panel {
    margin: 1em 1em;
    text-align: center;
