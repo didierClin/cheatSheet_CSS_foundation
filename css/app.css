@@ -12,6 +12,9 @@ td {
    background-color: rgb(185, 196, 28);
    width: 33%;
 }
+/*table{
+  margin: 1em;
+}*/
 th {
    font-weight: bold;
    /*couleur de l'entete*/
@@ -40,4 +43,7 @@ p {
    background-color: orange;
    border-radius: 3em;
    box-shadow: .3em .3em darkgray;
+}
+@media only screen and (max-width: 40.0625em){
+  p { color: blue; font-weight: normal;}
 }

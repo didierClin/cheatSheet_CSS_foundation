@@ -63,14 +63,14 @@
         </div>
       </div>
   </section> <!-- section banner -->
-  <br>
+
 
 
 
 
   <section class="row">
 <!--    Formattage de la page suivant le device -->
-    <ul class="large-block-grid-2 medium-block-grid-1 small-block-grid-1">
+    <ul class="large-block-grid-2 medium-block-grid-1 small-block-grid-1 columns">
 <!--    /Propriétés Texte -->
         <li id="Tex">
           <h4 class="panel">Propriétés de texte</h4>
@@ -191,50 +191,73 @@
             </thead>
             <tbody>
               <tr>
-                <td> <p> <code>color</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p>  <em>nom</em>, rgb, rgba(rgb,opacity), #A0F</p> </td>
-                <td> <p> Couleur du texte</p> </td>
+                <td> <p> <code>width</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>150px, 80%...</p> </td>
+                <td> <p>Largeur</p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background-color</code> </p> </td>
-                 <td class="hide-for-small show-for-landscape"> <p> <em>Identique à color</em> </p> </td>
-                <td> <p> Couleur de fond</p> </td>
+                <td> <p> <code>height</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>150px, 80%...</p> </td>
+                <td> <p>Hauteur</p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background-image</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p> url('image.png')</p> </td>
-                <td> <p> Image de fond</p> </td>
+                <td> <p> <code>min-width</code><br />    <code>max-width</code><br />    <code>min-height</code><br />   <code>max-height</code></p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>150px, 80%...</p> </td>
+                <td> <p>Largeur minimale <br />  Largeur maximale<br />   Hauteur minimale<br />    Hauteur maximale</p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background-attachment</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p> fixed, scroll</p> </td>
-                <td> <p> Fond fixe</p> </td>
+                <td> <p> <code>margin-</code> <br />    <code>top</code><br />    <code>right</code><br />   <code>bottom</code><br />   <code>left</code></p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>23px, 5%</p> </td>
+                <td> <p>Marge<br />  en haut <br />  à droite<br />    en bas<br />    à gauche</p> </td>
+              </tr>
+
+              <tr>
+                <td> <p><code>margin</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>23px 5px 23px 5px <br />
+                        <em>(haut, droite, bas, gauche)</em> </p> </td>
+                <td> <p>Super-propriété de marge.</p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background-repeat</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p> repeat-x,<br /> repeat-y,<br /> no-repeat,<br /> repeat</p> </td>
-                <td> <p> Répétition du fond</p> </td>
+                <td> <p><code>padding-</code> <br />    <code>top</code><br />    <code>right</code><br />   <code>bottom</code><br />   <code>left</code></p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>23px, 5%</p> </td>
+                <td> <p>Marge intérieure<br />  en haut <br />  à droite<br />    en bas<br />    à gauche</p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background-position</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p> <em>(x y)</em>, top, center, bottom, left, right</p> </td>
-                <td> <p> >Position du fond</p> </td>
+                <td> <p> <code>padding</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>23px 5px 23px 5px <br />
+                        <em>(haut, droite, bas, gauche)</em> </p> </td>
+                <td> <p>Super-propriété de marge intérieure. </p> </td>
               </tr>
               <tr>
-                <td> <p> <code>background</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p> -</p> </td>
-                <td> <p> prop. combinées :
-                    <code>background-image</code>,
-                    <code>repeat</code>,
-                    <code>attachment</code>,
-                    <code>position</code>
-                  </p>
-                </td>
+                <td> <p> <code>border-width</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>3px</p> </td>
+                <td> <p>Épaisseur de bordure</p> </td>
               </tr>
               <tr>
-                <td> <p><code>opacity</code> </p> </td>
-                <td class="hide-for-small show-for-landscape"> <p>0.5</p> </td>
-                <td> <p>Transparence</p> </td>
+                <td> <p><code>border-color</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p> <em>nom</em>, rgb(*), rgba(rgb,opacity), #AB0</p> </td>
+                <td> <p>couleur de bordure</p> </td>
+              </tr>
+              <tr>
+                <td> <p> <code>border-style</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>solid, dotted, dashed, double, groove, ridge, inset, outset</p> </td>
+                <td> <p>Type de bordure</p> </td>
+              </tr>
+              <tr>
+                <td> <p> <code>border</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>3px solid black</p> </td>
+                <td> <p>Super-propriété de bordure. </td>
+              </tr>
+              <tr>
+                <td> <p><code>border-radius</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>5px</p> </td>
+                <td> <p>Bordure arrondie</p> </td>
+              </tr>
+              <tr>
+                <td> <p> <code>box-shadow</code> </p> </td>
+                <td class="hide-for-small show-for-landscape"> <p>6px 6px 0px black <br />
+                    <em>( horizontale, verticale,<br />  fondu,<br />  couleur)</em> </p> </td>
+                <td> <p>Ombre de boîte</p> </td>
               </tr>
             </tbody>
           </table>
