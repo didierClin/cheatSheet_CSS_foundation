@@ -1,4 +1,5 @@
 /* CS CCS3 */
+header{ padding-top: 1.5em;}
 /*Image entete*/
 img {
    height: auto;
@@ -32,12 +33,12 @@ p {
 .name p {
    color: white;
 }
-/*Personalisation entete*/
+/*Personalisation entete
 #myTouch {
    font-size: .4em;
    font-style: italic;
    color: red;
-}
+}*/
 /*Personalisation entete des tableaux*/
 .panel {
    margin: 1em 1em;
