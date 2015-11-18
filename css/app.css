@@ -5,19 +5,18 @@ img {
    width: 70%;
    margin: 1.2em auto;
 }
+ ul li > a.button.success {
+  background-color: #248B14 !important;}
+.myTab{
+  width: 100%;
+  margin: 1% auto;
+}
 /* Personalisation cellules de tableau*/
 td {
    color: rgb(29, 99, 66);
    /*couleur cellules*/
    background-color: rgb(185, 196, 28);
    width: 33%;
-}
-/*table{
-  margin: 1em;
-}*/
-.myTab{
-  width: 100%;
-  margin: 1% auto;
 }
 th {
    font-weight: bold;
@@ -31,11 +30,12 @@ p {
 /* Visibilité titre ds barNav */
 .name p {
    color: white;
+   font-size: .75em !important;
 }
-h1, .name{ font-family: 'Press Start 2P', cursive;}
+h1, .name { font-family: 'Press Start 2P', cursive;}
 /*Personalisation entete des tableaux*/
 .panel {
-   margin: 1em 1em;
+   margin: 3em 1em 1em 1em;
    text-align: center;
    color: rgb(31, 83, 12);
    font-weight: bolder;
@@ -43,7 +43,8 @@ h1, .name{ font-family: 'Press Start 2P', cursive;}
    border-radius: 3em;
    box-shadow: .3em .3em darkgray;
 }
+footer{ background: lightgray;}
 @media only screen and (max-width: 35em){
-   tr p { font-size: 1.1em;}
-   h1 { font-size: 1.2em;}
+   tr p  { font-size: 1.1em;}
+   h1    { font-size: 1.2em;}
 }
